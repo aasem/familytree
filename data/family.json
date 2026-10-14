@@ -84,6 +84,17 @@
       "mother": "parveen"
     },
     {
+      "id": "parveen",
+      "name": "Parveen Akram",
+      "gender": "female",
+      "living": false,
+      "birth": "",
+      "place": "",
+      "bio": "",
+      "father": "Qazi",
+      "mother": "To Enter"
+    },
+    {
       "id": "sparkle",
       "name": "Sparkle",
       "kind": "pet",
