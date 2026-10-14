@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A family register: a clickable tree, a lineage chart, and a page for each person.">
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#e7dccb">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Family">
+  <title>Family Tree</title>
+  <script>
+    (() => {
+      const stored = localStorage.getItem("ft-theme");
+      const theme = stored === "light" || stored === "dark"
+        ? stored
+        : (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+      document.documentElement.dataset.theme = theme;
+      const meta = document.querySelector('meta[name="theme-color"]');
+      if (meta) meta.content = theme === "dark" ? "#161310" : "#e7dccb";
+    })();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="./icons/icon-192.png">
+  <link rel="manifest" href="./manifest.json">
+  <link rel="stylesheet" href="./css/app.css">
+</head>
+<body>
+  <div class="shell">
+    <div class="main">
+      <header class="top">
+        <div class="identity">
+          <p class="eyebrow">Family register</p>
+          <h1 id="title">Family Tree</h1>
+          <p class="lede" id="lede" hidden></p>
+        </div>
+        <div class="tools">
+          <div class="search">
+            <label class="sr" for="q">Search the family</label>
+            <input id="q" type="search" placeholder="Search the family" autocomplete="off" spellcheck="false">
+            <div id="suggest" class="suggest" hidden></div>
+          </div>
+          <div class="tool-row">
+            <div class="switch" role="group" aria-label="View">
+              <button type="button" data-view="tree" aria-pressed="true">Tree</button>
+              <button type="button" data-view="lineage">Lineage</button>
+              <button type="button" data-view="directory">Directory</button>
+            </div>
+            <button type="button" id="theme" class="ghost" aria-pressed="false">Dark</button>
+            <button type="button" id="install" class="ghost" hidden>Install app</button>
+          </div>
+        </div>
+      </header>
+      <p class="stats" id="stats"></p>
+      <div class="banner" id="banner" hidden></div>
+      <div class="issues" id="issues" hidden></div>
+      <p class="caption" id="caption"></p>
+      <div id="view-tree" class="stage"></div>
+      <div id="view-lineage" hidden></div>
+      <div id="view-directory" hidden></div>
+      <footer class="colophon">Press / to search. Face photos go in <code>photos/</code>. Names, dates, and biographies go in <code>data/family.json</code>.</footer>
+    </div>
+    <aside class="detail" id="detail" aria-live="polite"></aside>
+  </div>
+  <div class="now" id="now"></div>
+  <div class="scrim" id="scrim" hidden></div>
+  <noscript><p class="fatal">This register needs JavaScript to draw the tree.</p></noscript>
+  <script type="module" src="./js/app.js"></script>
+</body>
+</html>

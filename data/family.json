@@ -1,0 +1,86 @@
+{
+  "$schema": "./family.schema.json",
+  "title": "Bakhshi Family",
+  "subtitle": "",
+  "focusId": "asim",
+  "people": [
+    {
+      "id": "asim",
+      "name": "Asim Dilawar Bakhshi",
+      "gender": "male",
+      "living": true,
+      "birth": "18 Oct 1974",
+      "place": "Karachi",
+      "photo": "photos/asim-bakhshi.png",
+      "bio": "",
+      "spouses": ["sheeza"],
+      "father": "faheem",
+      "mother": "sohaila"
+    },
+    {
+      "id": "sheeza",
+      "name": "Sheeza Asim",
+      "gender": "female",
+      "living": true,
+      "birth": "1985",
+      "place": "Karachi",
+      "bio": "",
+      "spouses": ["asim"]
+    },
+    {
+      "id": "ahmed",
+      "name": "Ahmed Bin Asim",
+      "gender": "male",
+      "living": true,
+      "birth": "2002",
+      "place": "Rawalpindi",
+      "bio": "",
+      "father": "asim",
+      "mother": "sheeza"
+    },
+    {
+      "id": "muhammad",
+      "name": "Muhammad Bin Asim",
+      "gender": "male",
+      "living": true,
+      "birth": "2002",
+      "place": "Rawalpindi",
+      "bio": "",
+      "father": "asim",
+      "mother": "sheeza"
+    },
+    {
+      "id": "maaz",
+      "name": "Maaz Bakhshi",
+      "gender": "male",
+      "living": true,
+      "birth": "2009",
+      "place": "Rawalpindi",
+      "bio": "",
+      "father": "asim",
+      "mother": "sheeza"
+    },
+    {
+      "id": "faheem",
+      "name": "Faheem Anwar",
+      "gender": "male",
+      "living": false,
+      "birth": "1943",
+      "death": "2012",
+      "place": "Rawalpindi",
+      "bio": "",
+      "father": "anwar",
+      "mother": "naseem"
+    },
+    {
+      "id": "sparkle",
+      "name": "Sparkle",
+      "kind": "pet",
+      "species": "cat",
+      "living": true,
+      "birth": "2021",
+      "bio": "",
+      "owners": ["maaz"]
+    }
+  ]
+}
