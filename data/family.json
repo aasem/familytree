@@ -73,6 +73,17 @@
       "mother": "naseem"
     },
     {
+      "id": "sohaila",
+      "name": "Sohaila Bakhshi",
+      "gender": "female",
+      "living": true,
+      "birth": "1956",
+      "place": "Sahiwal",
+      "bio": "",
+      "father": "akram",
+      "mother": "parveen"
+    },
+    {
       "id": "sparkle",
       "name": "Sparkle",
       "kind": "pet",
