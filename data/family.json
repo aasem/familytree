@@ -88,12 +88,24 @@
       "name": "Parveen Akram",
       "gender": "female",
       "living": false,
-      "birth": "",
-      "place": "",
+      "birth": "1 Jan 1936",
+      "place": "Jalandhar",
       "bio": "",
       "spouses": ["akram"],
-      "father": "Qazi",
-      "mother": "To Enter"
+      "father": "Qazi Niaz",
+      "mother": "Farkhanda Begum"
+    },
+    {
+      "id": "akram",
+      "name": "Akram Ali Bakhshi",
+      "gender": "male",
+      "living": false,
+      "birth": "31 Dec 1925",
+      "place": "",
+      "bio": "",
+      "spouses": ["parveen"],
+      "father": "Dilawar Ali Bakhshi",
+      "mother": "Dilshad Begum"
     },
     {
       "id": "sparkle",
