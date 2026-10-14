@@ -19,30 +19,30 @@
     },
     {
      "id": "usman",
-      "name": "Usman Dilawar",
+      "name": "Usman Anwar Bakhshi",
       "gender": "male",
       "living": true,
-      "birth": "",
-      "place": "",
+      "birth": "18 Mar 1981",
+      "place": "Quetta",
       "photo": "",
       "bio": "",
       "spouses": ["annoshia"],
       "father": "faheem",
       "mother": "sohaila" 
-    }
+    },
     {
      "id": "saima",
-      "name": "Saima",
+      "name": "Saima Ajmal",
       "gender": "Female",
       "living": true,
-      "birth": "",
-      "place": "",
+      "birth": "1 May 1978",
+      "place": "Lahore",
       "photo": "",
       "bio": "",
       "spouses": ["ajmal"],
       "father": "faheem",
       "mother": "sohaila" 
-    }
+    },
     {
       "id": "sheeza",
       "name": "Sheeza Asim",
