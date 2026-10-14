@@ -18,6 +18,32 @@
       "mother": "sohaila"
     },
     {
+     "id": "usman",
+      "name": "Usman Dilawar",
+      "gender": "male",
+      "living": true,
+      "birth": "",
+      "place": "",
+      "photo": "",
+      "bio": "",
+      "spouses": ["annoshia"],
+      "father": "faheem",
+      "mother": "sohaila" 
+    }
+    {
+     "id": "saima",
+      "name": "Saima",
+      "gender": "Female",
+      "living": true,
+      "birth": "",
+      "place": "",
+      "photo": "",
+      "bio": "",
+      "spouses": ["ajmal"],
+      "father": "faheem",
+      "mother": "sohaila" 
+    }
+    {
       "id": "sheeza",
       "name": "Sheeza Asim",
       "gender": "female",
