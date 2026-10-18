@@ -44,6 +44,32 @@
       "mother": "sohaila" 
     },
     {
+     "id": "haider",
+      "name": "Haider Ajmal",
+      "gender": "male",
+      "living": true,
+      "birth": "1 May 2002",
+      "place": "Karachi",
+      "photo": "",
+      "bio": "",
+      "spouses": [""],
+      "father": "ajmal",
+      "mother": "saima" 
+    },
+    {
+      "id": "zara",
+      "name": "Zara Ajmal",
+      "gender": "female",
+      "living": true,
+      "birth": "12 July 2012",
+      "place": "Karachi",
+      "photo": "",
+      "bio": "",
+      "spouses": [""],
+      "father": "ajmal",
+      "mother": "saima" 
+    },
+   {
       "id": "sheeza",
       "name": "Sheeza Asim",
       "gender": "female",
@@ -52,13 +78,63 @@
       "place": "Karachi",
       "bio": "",
       "spouses": ["asim"]
+      "father": "tahir"
+      "mother": "nabila"
     },
     {
+      "id": "annoshia",
+      "name": "Annoshia Usman",
+      "gender": "female",
+      "living": true,
+      "birth": "18 Sep 1986",
+      "place": "Karachi",
+      "bio": "",
+      "spouses": ["usman"]
+      "father": "tahir"
+      "mother": "nabila"
+    },
+    {
+      "id": "amber",
+      "name": "Amber Habban",
+      "gender": "female",
+      "living": true,
+      "birth": "11 Mar 1999",
+      "place": "Karachi",
+      "bio": "",
+      "spouses": ["habban"]
+      "father": "tahir"
+      "mother": "nabila"
+    },
+    {
+      "id": "uzair",
+      "name": "Uzair Tahir Bhutta",
+      "gender": "male",
+      "living": true,
+      "birth": "19 Jun 1991",
+      "place": "Abu Dhabi",
+      "bio": "",
+      "spouses": ["madiha"]
+      "father": "tahir"
+      "mother": "nabila"
+  },
+  {
+      "id": "ashaar",
+      "name": "Ashaar Tahir Bhutta",
+      "gender": "male",
+      "living": true,
+      "birth": "19 Sep 1989",
+      "place": "Kamra",
+      "bio": "",
+      "spouses": [""]
+      "father": "tahir"
+      "mother": "nabila"
+  },
+  {
       "id": "ahmed",
       "name": "Ahmed Bin Asim",
       "gender": "male",
       "living": true,
-      "birth": "2002",
+      "birth": "16 Mar 2004",
       "place": "Rawalpindi",
       "bio": "",
       "father": "asim",
@@ -69,7 +145,7 @@
       "name": "Muhammad Bin Asim",
       "gender": "male",
       "living": true,
-      "birth": "2002",
+      "birth": "16 Mar 2004",
       "place": "Rawalpindi",
       "bio": "",
       "father": "asim",
@@ -80,7 +156,7 @@
       "name": "Maaz Bakhshi",
       "gender": "male",
       "living": true,
-      "birth": "2009",
+      "birth": "13 Jan 2009",
       "place": "Rawalpindi",
       "bio": "",
       "father": "asim",
